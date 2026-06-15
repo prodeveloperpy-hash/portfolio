@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Shahzad Portfolio</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section Design-->
+    <header class="header">
+        <a href="#" class="logo">Muhammad Shahzad</a>
+        <i class='bx  bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h2>Muhammad Shahzad</h2>
+            <h3>and I'm a <span>Full Stack Developer</span></h3>
+            <p>I’m specializing in building modern, scalable, and high-performance web applications. My expertise includes React.js, Next.js, TypeScript, Node.js, Express.js, NestJS, MongoDB, PostgreSQL, MySQL, Tailwind CSS, and AWS. I develop responsive user interfaces, secure backend systems, RESTful APIs, and cloud-based solutions. Focused on clean code, performance, and user experience, I help businesses turn ideas into reliable digital products.</p>
+            <div class="social-media">
+                <a href="https://wa.me/923030370553?text=Hello%20Farooq,%20I%20want%20to%20discuss%20a%20project" target="_blank" rel="noopener" aria-label="Contact Muhammad Farooq on WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61585641737665" target="_blank" rel="noopener" aria-label="Visit Muhammad Farooq on Facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-farooq-a6b52237b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="Visit Muhammad Farooq on LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.instagram.com/m_far00q_?igsh=MWV0YnVlcnh3MnNpMw==" target="_blank" rel="noopener" aria-label="Visit Muhammad Farooq on Instagram"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+            <a href="Resume.pdf" class="btn" download>Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="home.png" alt="">
+        </div>
+    </section>
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>I am a Full Stack Developer with a strong passion for technology, innovation, and problem-solving. Over the years, I have developed expertise in building modern web applications that deliver exceptional user experiences while maintaining high standards of performance, security, and scalability.</p>
+            <div class="about-more" id="about-more">
+                <p>My journey into software development started with a curiosity about how digital products are built and evolved into a professional career focused on creating meaningful solutions for businesses and users. I enjoy working across the entire technology stack, from designing intuitive frontend interfaces to developing efficient backend systems and optimizing databases.</p>
+                <p>My technical expertise includes React.js, Next.js, TypeScript, JavaScript, Node.js, Express.js, NestJS, MongoDB, PostgreSQL, MySQL, Tailwind CSS, Redux Toolkit, GraphQL, Docker, AWS, GitHub Actions, and modern DevOps practices. I continuously explore emerging technologies and industry trends to ensure the solutions I build remain current, competitive, and future-ready.</p>
+            </div>
+            <button type="button" class="btn about-toggle" id="about-toggle" aria-expanded="false" aria-controls="about-more">Read More</button>
+        </div>
+    </section>
+    <!-- Services Section Design -->
+    <section class="service-details" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="service-details-container">
+            <article class="service-detail" id="service-web-development">
+                <i class="bx bx-code-alt"></i>
+                <div>
+                    <h3>Full Stack Web Development</h3>
+                    <p>I create complete websites and web applications with responsive layouts, modern frontend design,
+                        secure backend logic, API integration, authentication, database setup, and deployment support.</p>
+                    <ul>
+                        <li>Frontend: React, Next.js, JavaScript, TypeScript, HTML, CSS, Tailwind, Bootstrap</li>
+                        <li>Backend: Node.js, Express.js, NestJS, Django, REST APIs, authentication</li>
+                        <li>Databases: MongoDB, PostgreSQL, MySQL, SQL</li>
+                    </ul>
+                    <a href="#contact" class="detail-link">Discuss this service</a>
+                </div>
+            </article>
+
+            <article class="service-detail" id="service-automation">
+                <i class="bx bx-cog"></i>
+                <div>
+                    <h3>No Code Automation</h3>
+                    <p>I connect tools and build automated workflows that save time, reduce repetitive work, and improve
+                        how your business handles leads, data, notifications, documents, and daily operations.</p>
+                    <ul>
+                        <li>Workflow automation with tools like Zapier, Make, n8n, Airtable, and Notion</li>
+                        <li>Lead capture, CRM updates, email alerts, reporting, and data syncing</li>
+                        <li>Automation planning, testing, and documentation for reliable handoff</li>
+                    </ul>
+                    <a href="#contact" class="detail-link">Discuss this service</a>
+                </div>
+            </article>
+
+            <article class="service-detail" id="service-app-development">
+                <i class="bx bx-mobile-alt"></i>
+                <div>
+                    <h3>App Development</h3>
+                    <p>I develop practical app experiences focused on clean screens, smooth navigation, useful features,
+                        secure data handling, and performance across mobile-focused workflows.</p>
+                    <ul>
+                        <li>Mobile-friendly dashboards, portals, booking systems, and business tools</li>
+                        <li>Backend APIs, user accounts, database integration, and admin features</li>
+                        <li>Responsive UI design for phones, tablets, and desktop users</li>
+                    </ul>
+                    <a href="#contact" class="detail-link">Discuss this service</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- Portfolio Section Design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Ecommerce Website</h3>
+                    <a href="https://cvs2020.com/?gad_source=1&gad_campaignid=22644248546&gbraid=0AAAAApywtB4eBOBu86cFWzeSssRaHHVB2&gclid=Cj0KCQjw2_TQBhCnARIsAF3-XhzrVEFg5OW5In5LDYAiBntNsVoy_nANe9VSYL-ixrrHT4A91EexMmIaAotbEALw_wcB" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio2.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Construction Website</h3>
+                    <a href="https://tooli.uk/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio3.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Business Website</h3>
+                    <a href="https://bisviews.com/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio4.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Banking Website</h3>
+                    <a href="https://www.smergers.com/business/ecommerce-website-for-sale-in-karachi-pakistan/hltod/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio5.png" alt="">
+                <div class="portfolio-layer">
+                    <h3>Gaming Website</h3>
+                    <a href="https://sensepc.com/" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Let's <span>Connect</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Have a project in mind?</h3>
+                <p>Reach out through your preferred platform and I'll get back to you about your website, app, automation,
+                    or business solution.</p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=farooqmallan53@gmail.com&su=Project%20Inquiry&body=Hello%20Farooq,%20I%20want%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="btn">Send Email</a>
+            </div>
+
+            <div class="contact-links">
+                <a class="contact-link whatsapp" href="https://wa.me/923030370553?text=Hello%20Farooq,%20I%20want%20to%20discuss%20a%20project" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
+                    <i class="bx bxl-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a class="contact-link facebook" href="https://www.facebook.com/profile.php?id=61585641737665" target="_blank">
+                    <i class="bx bxl-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <a class="contact-link linkedin" href="https://www.linkedin.com/in/muhammad-farooq-a6b52237b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                    <i class="bx bxl-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a class="contact-link instagram" href="https://www.instagram.com/m_far00q_?igsh=MWV0YnVlcnh3MnNpMw==" target="_blank">
+                    <i class="bx bxl-instagram-alt"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <!-- scroll reveal js file link -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- JavaScript file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
